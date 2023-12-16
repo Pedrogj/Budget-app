@@ -1,3 +1,9 @@
+import { AppRouter } from "./router/AppRouter";
+
 export const BudgetApp = () => {
-  return <h1>BudgetApp</h1>;
+  return (
+    <>
+      <AppRouter />
+    </>
+  );
 };
